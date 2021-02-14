@@ -1,0 +1,9 @@
+$('.arti').on('click',function(){
+   $('.icon').toggleClass('active-icon');
+   $('h1').toggleClass('active-h1');
+   $('.daire').toggleClass('active-daire');
+   $('ul').toggleClass('active-ul');
+   $(this).toggleClass('active-arti');
+   $('.dikey').toggleClass('active-dikey');
+   $('.yatay').toggleClass('active-yatay');
+});
